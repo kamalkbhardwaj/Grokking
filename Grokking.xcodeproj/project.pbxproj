@@ -6,6 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8EFFB3CC2E880B8600ADF8C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFFB3C72E880B8600ADF8C5 /* Assets.xcassets */; };
+		8EFFB3CD2E880B8600ADF8C5 /* RichestCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB3C42E880B8600ADF8C5 /* RichestCustomer.swift */; };
+		8EFFB3CE2E880B8600ADF8C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB3C82E880B8600ADF8C5 /* ContentView.swift */; };
+		8EFFB3CF2E880B8600ADF8C5 /* GrokkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB3CA2E880B8600ADF8C5 /* GrokkingApp.swift */; };
+		8EFFB3D22E880B8C00ADF8C5 /* GrokkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB3D02E880B8C00ADF8C5 /* GrokkingTests.swift */; };
+		8EFFB3D62E880B9000ADF8C5 /* GrokkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB3D32E880B9000ADF8C5 /* GrokkingUITests.swift */; };
+		8EFFB3D72E880B9000ADF8C5 /* GrokkingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB3D42E880B9000ADF8C5 /* GrokkingUITestsLaunchTests.swift */; };
+		8EFFB3DB2E88121C00ADF8C5 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB3DA2E88121400ADF8C5 /* FizzBuzz.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8EF3EFA92E7876190082EB25 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,25 +38,16 @@
 		8EF3EF9A2E7876160082EB25 /* Grokking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grokking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF3EFA82E7876190082EB25 /* GrokkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrokkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF3EFB22E7876190082EB25 /* GrokkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrokkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EFFB3C42E880B8600ADF8C5 /* RichestCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichestCustomer.swift; sourceTree = "<group>"; };
+		8EFFB3C72E880B8600ADF8C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EFFB3C82E880B8600ADF8C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EFFB3C92E880B8600ADF8C5 /* Grokking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Grokking.entitlements; sourceTree = "<group>"; };
+		8EFFB3CA2E880B8600ADF8C5 /* GrokkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrokkingApp.swift; sourceTree = "<group>"; };
+		8EFFB3D02E880B8C00ADF8C5 /* GrokkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrokkingTests.swift; sourceTree = "<group>"; };
+		8EFFB3D32E880B9000ADF8C5 /* GrokkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrokkingUITests.swift; sourceTree = "<group>"; };
+		8EFFB3D42E880B9000ADF8C5 /* GrokkingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrokkingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8EFFB3DA2E88121400ADF8C5 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		8EF3EF9C2E7876160082EB25 /* Grokking */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Grokking;
-			sourceTree = "<group>";
-		};
-		8EF3EFAB2E7876190082EB25 /* GrokkingTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GrokkingTests;
-			sourceTree = "<group>";
-		};
-		8EF3EFB52E7876190082EB25 /* GrokkingUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GrokkingUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8EF3EF972E7876160082EB25 /* Frameworks */ = {
@@ -75,9 +77,9 @@
 		8EF3EF912E7876160082EB25 = {
 			isa = PBXGroup;
 			children = (
-				8EF3EF9C2E7876160082EB25 /* Grokking */,
-				8EF3EFAB2E7876190082EB25 /* GrokkingTests */,
-				8EF3EFB52E7876190082EB25 /* GrokkingUITests */,
+				8EFFB3CB2E880B8600ADF8C5 /* Grokking */,
+				8EFFB3D12E880B8C00ADF8C5 /* GrokkingTests */,
+				8EFFB3D52E880B9000ADF8C5 /* GrokkingUITests */,
 				8EF3EF9B2E7876160082EB25 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +92,52 @@
 				8EF3EFB22E7876190082EB25 /* GrokkingUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8EFFB3C52E880B8600ADF8C5 /* GetStarted */ = {
+			isa = PBXGroup;
+			children = (
+				8EFFB3DA2E88121400ADF8C5 /* FizzBuzz.swift */,
+				8EFFB3C42E880B8600ADF8C5 /* RichestCustomer.swift */,
+			);
+			path = GetStarted;
+			sourceTree = "<group>";
+		};
+		8EFFB3C62E880B8600ADF8C5 /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				8EFFB3C52E880B8600ADF8C5 /* GetStarted */,
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		8EFFB3CB2E880B8600ADF8C5 /* Grokking */ = {
+			isa = PBXGroup;
+			children = (
+				8EFFB3C62E880B8600ADF8C5 /* LeetCode */,
+				8EFFB3C72E880B8600ADF8C5 /* Assets.xcassets */,
+				8EFFB3C82E880B8600ADF8C5 /* ContentView.swift */,
+				8EFFB3C92E880B8600ADF8C5 /* Grokking.entitlements */,
+				8EFFB3CA2E880B8600ADF8C5 /* GrokkingApp.swift */,
+			);
+			path = Grokking;
+			sourceTree = "<group>";
+		};
+		8EFFB3D12E880B8C00ADF8C5 /* GrokkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EFFB3D02E880B8C00ADF8C5 /* GrokkingTests.swift */,
+			);
+			path = GrokkingTests;
+			sourceTree = "<group>";
+		};
+		8EFFB3D52E880B9000ADF8C5 /* GrokkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EFFB3D32E880B9000ADF8C5 /* GrokkingUITests.swift */,
+				8EFFB3D42E880B9000ADF8C5 /* GrokkingUITestsLaunchTests.swift */,
+			);
+			path = GrokkingUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +154,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				8EF3EF9C2E7876160082EB25 /* Grokking */,
 			);
 			name = Grokking;
 			packageProductDependencies = (
@@ -130,9 +175,6 @@
 			dependencies = (
 				8EF3EFAA2E7876190082EB25 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				8EF3EFAB2E7876190082EB25 /* GrokkingTests */,
-			);
 			name = GrokkingTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +194,6 @@
 			);
 			dependencies = (
 				8EF3EFB42E7876190082EB25 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				8EF3EFB52E7876190082EB25 /* GrokkingUITests */,
 			);
 			name = GrokkingUITests;
 			packageProductDependencies = (
@@ -212,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EFFB3CC2E880B8600ADF8C5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EFFB3CD2E880B8600ADF8C5 /* RichestCustomer.swift in Sources */,
+				8EFFB3CE2E880B8600ADF8C5 /* ContentView.swift in Sources */,
+				8EFFB3CF2E880B8600ADF8C5 /* GrokkingApp.swift in Sources */,
+				8EFFB3DB2E88121C00ADF8C5 /* FizzBuzz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EFFB3D22E880B8C00ADF8C5 /* GrokkingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +295,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EFFB3D62E880B9000ADF8C5 /* GrokkingUITests.swift in Sources */,
+				8EFFB3D72E880B9000ADF8C5 /* GrokkingUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
