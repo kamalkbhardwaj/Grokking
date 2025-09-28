@@ -16,6 +16,8 @@
 		8EFFB3D72E880B9000ADF8C5 /* GrokkingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB3D42E880B9000ADF8C5 /* GrokkingUITestsLaunchTests.swift */; };
 		8EFFB3DB2E88121C00ADF8C5 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB3DA2E88121400ADF8C5 /* FizzBuzz.swift */; };
 		8EFFB3DD2E882CC900ADF8C5 /* ReducedToZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB3DC2E882CC300ADF8C5 /* ReducedToZero.swift */; };
+		8EFFB3DF2E89131100ADF8C5 /* MiddleOfLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB3DE2E89130B00ADF8C5 /* MiddleOfLinkedList.swift */; };
+		8EFFB3E22E89188F00ADF8C5 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB3E12E89188D00ADF8C5 /* ListNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8EFFB3D42E880B9000ADF8C5 /* GrokkingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrokkingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8EFFB3DA2E88121400ADF8C5 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 		8EFFB3DC2E882CC300ADF8C5 /* ReducedToZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReducedToZero.swift; sourceTree = "<group>"; };
+		8EFFB3DE2E89130B00ADF8C5 /* MiddleOfLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleOfLinkedList.swift; sourceTree = "<group>"; };
+		8EFFB3E12E89188D00ADF8C5 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		8EFFB3C52E880B8600ADF8C5 /* GetStarted */ = {
 			isa = PBXGroup;
 			children = (
+				8EFFB3DE2E89130B00ADF8C5 /* MiddleOfLinkedList.swift */,
 				8EFFB3DC2E882CC300ADF8C5 /* ReducedToZero.swift */,
 				8EFFB3DA2E88121400ADF8C5 /* FizzBuzz.swift */,
 				8EFFB3C42E880B8600ADF8C5 /* RichestCustomer.swift */,
@@ -117,6 +122,7 @@
 		8EFFB3CB2E880B8600ADF8C5 /* Grokking */ = {
 			isa = PBXGroup;
 			children = (
+				8EFFB3E02E89188200ADF8C5 /* SupportingFiles */,
 				8EFFB3C62E880B8600ADF8C5 /* LeetCode */,
 				8EFFB3C72E880B8600ADF8C5 /* Assets.xcassets */,
 				8EFFB3C82E880B8600ADF8C5 /* ContentView.swift */,
@@ -141,6 +147,14 @@
 				8EFFB3D42E880B9000ADF8C5 /* GrokkingUITestsLaunchTests.swift */,
 			);
 			path = GrokkingUITests;
+			sourceTree = "<group>";
+		};
+		8EFFB3E02E89188200ADF8C5 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8EFFB3E12E89188D00ADF8C5 /* ListNode.swift */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +293,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EFFB3E22E89188F00ADF8C5 /* ListNode.swift in Sources */,
+				8EFFB3DF2E89131100ADF8C5 /* MiddleOfLinkedList.swift in Sources */,
 				8EFFB3CD2E880B8600ADF8C5 /* RichestCustomer.swift in Sources */,
 				8EFFB3DD2E882CC900ADF8C5 /* ReducedToZero.swift in Sources */,
 				8EFFB3CE2E880B8600ADF8C5 /* ContentView.swift in Sources */,
