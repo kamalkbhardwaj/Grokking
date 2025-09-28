@@ -15,6 +15,7 @@
 		8EFFB3D62E880B9000ADF8C5 /* GrokkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB3D32E880B9000ADF8C5 /* GrokkingUITests.swift */; };
 		8EFFB3D72E880B9000ADF8C5 /* GrokkingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB3D42E880B9000ADF8C5 /* GrokkingUITestsLaunchTests.swift */; };
 		8EFFB3DB2E88121C00ADF8C5 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB3DA2E88121400ADF8C5 /* FizzBuzz.swift */; };
+		8EFFB3DD2E882CC900ADF8C5 /* ReducedToZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB3DC2E882CC300ADF8C5 /* ReducedToZero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8EFFB3D32E880B9000ADF8C5 /* GrokkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrokkingUITests.swift; sourceTree = "<group>"; };
 		8EFFB3D42E880B9000ADF8C5 /* GrokkingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrokkingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8EFFB3DA2E88121400ADF8C5 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
+		8EFFB3DC2E882CC300ADF8C5 /* ReducedToZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReducedToZero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		8EFFB3C52E880B8600ADF8C5 /* GetStarted */ = {
 			isa = PBXGroup;
 			children = (
+				8EFFB3DC2E882CC300ADF8C5 /* ReducedToZero.swift */,
 				8EFFB3DA2E88121400ADF8C5 /* FizzBuzz.swift */,
 				8EFFB3C42E880B8600ADF8C5 /* RichestCustomer.swift */,
 			);
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EFFB3CD2E880B8600ADF8C5 /* RichestCustomer.swift in Sources */,
+				8EFFB3DD2E882CC900ADF8C5 /* ReducedToZero.swift in Sources */,
 				8EFFB3CE2E880B8600ADF8C5 /* ContentView.swift in Sources */,
 				8EFFB3CF2E880B8600ADF8C5 /* GrokkingApp.swift in Sources */,
 				8EFFB3DB2E88121C00ADF8C5 /* FizzBuzz.swift in Sources */,
