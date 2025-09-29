@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8EFFB4392E8AE58A00ADF8C5 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB42B2E8AE58A00ADF8C5 /* FizzBuzz.swift */; };
-		8EFFB43A2E8AE58A00ADF8C5 /* MiddleOfLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB42C2E8AE58A00ADF8C5 /* MiddleOfLinkedList.swift */; };
-		8EFFB43B2E8AE58A00ADF8C5 /* RansomNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB42D2E8AE58A00ADF8C5 /* RansomNote.swift */; };
-		8EFFB43C2E8AE58A00ADF8C5 /* ReducedToZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB42E2E8AE58A00ADF8C5 /* ReducedToZero.swift */; };
-		8EFFB43D2E8AE58A00ADF8C5 /* RichestCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB42F2E8AE58A00ADF8C5 /* RichestCustomer.swift */; };
-		8EFFB43E2E8AE58A00ADF8C5 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB4322E8AE58A00ADF8C5 /* ListNode.swift */; };
-		8EFFB43F2E8AE58A00ADF8C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB4352E8AE58A00ADF8C5 /* ContentView.swift */; };
-		8EFFB4402E8AE58A00ADF8C5 /* GrokkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB4372E8AE58A00ADF8C5 /* GrokkingApp.swift */; };
-		8EFFB4412E8AE58A00ADF8C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFFB4342E8AE58A00ADF8C5 /* Assets.xcassets */; };
-		8EFFB4442E8AE58E00ADF8C5 /* GrokkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB4422E8AE58E00ADF8C5 /* GrokkingTests.swift */; };
-		8EFFB4482E8AE59000ADF8C5 /* GrokkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB4452E8AE59000ADF8C5 /* GrokkingUITests.swift */; };
-		8EFFB4492E8AE59000ADF8C5 /* GrokkingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB4462E8AE59000ADF8C5 /* GrokkingUITestsLaunchTests.swift */; };
+		8EFFB4802E8AE73C00ADF8C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFFB47B2E8AE73C00ADF8C5 /* Assets.xcassets */; };
+		8EFFB4812E8AE73C00ADF8C5 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB4722E8AE73C00ADF8C5 /* FizzBuzz.swift */; };
+		8EFFB4822E8AE73C00ADF8C5 /* MiddleOfLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB4732E8AE73C00ADF8C5 /* MiddleOfLinkedList.swift */; };
+		8EFFB4832E8AE73C00ADF8C5 /* RansomNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB4742E8AE73C00ADF8C5 /* RansomNote.swift */; };
+		8EFFB4842E8AE73C00ADF8C5 /* ReducedToZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB4752E8AE73C00ADF8C5 /* ReducedToZero.swift */; };
+		8EFFB4852E8AE73C00ADF8C5 /* RichestCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB4762E8AE73C00ADF8C5 /* RichestCustomer.swift */; };
+		8EFFB4862E8AE73C00ADF8C5 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB4792E8AE73C00ADF8C5 /* ListNode.swift */; };
+		8EFFB4872E8AE73C00ADF8C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB47C2E8AE73C00ADF8C5 /* ContentView.swift */; };
+		8EFFB4882E8AE73C00ADF8C5 /* GrokkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB47E2E8AE73C00ADF8C5 /* GrokkingApp.swift */; };
+		8EFFB48B2E8AE74000ADF8C5 /* GrokkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB4892E8AE74000ADF8C5 /* GrokkingTests.swift */; };
+		8EFFB48F2E8AE74400ADF8C5 /* GrokkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB48C2E8AE74400ADF8C5 /* GrokkingUITests.swift */; };
+		8EFFB4902E8AE74400ADF8C5 /* GrokkingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB48D2E8AE74400ADF8C5 /* GrokkingUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,19 +42,19 @@
 		8EF3EF9A2E7876160082EB25 /* Grokking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grokking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF3EFA82E7876190082EB25 /* GrokkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrokkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF3EFB22E7876190082EB25 /* GrokkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrokkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EFFB42B2E8AE58A00ADF8C5 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
-		8EFFB42C2E8AE58A00ADF8C5 /* MiddleOfLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleOfLinkedList.swift; sourceTree = "<group>"; };
-		8EFFB42D2E8AE58A00ADF8C5 /* RansomNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RansomNote.swift; sourceTree = "<group>"; };
-		8EFFB42E2E8AE58A00ADF8C5 /* ReducedToZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReducedToZero.swift; sourceTree = "<group>"; };
-		8EFFB42F2E8AE58A00ADF8C5 /* RichestCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichestCustomer.swift; sourceTree = "<group>"; };
-		8EFFB4322E8AE58A00ADF8C5 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
-		8EFFB4342E8AE58A00ADF8C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8EFFB4352E8AE58A00ADF8C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8EFFB4362E8AE58A00ADF8C5 /* Grokking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Grokking.entitlements; sourceTree = "<group>"; };
-		8EFFB4372E8AE58A00ADF8C5 /* GrokkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrokkingApp.swift; sourceTree = "<group>"; };
-		8EFFB4422E8AE58E00ADF8C5 /* GrokkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrokkingTests.swift; sourceTree = "<group>"; };
-		8EFFB4452E8AE59000ADF8C5 /* GrokkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrokkingUITests.swift; sourceTree = "<group>"; };
-		8EFFB4462E8AE59000ADF8C5 /* GrokkingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrokkingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8EFFB4722E8AE73C00ADF8C5 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
+		8EFFB4732E8AE73C00ADF8C5 /* MiddleOfLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleOfLinkedList.swift; sourceTree = "<group>"; };
+		8EFFB4742E8AE73C00ADF8C5 /* RansomNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RansomNote.swift; sourceTree = "<group>"; };
+		8EFFB4752E8AE73C00ADF8C5 /* ReducedToZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReducedToZero.swift; sourceTree = "<group>"; };
+		8EFFB4762E8AE73C00ADF8C5 /* RichestCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichestCustomer.swift; sourceTree = "<group>"; };
+		8EFFB4792E8AE73C00ADF8C5 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		8EFFB47B2E8AE73C00ADF8C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EFFB47C2E8AE73C00ADF8C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EFFB47D2E8AE73C00ADF8C5 /* Grokking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Grokking.entitlements; sourceTree = "<group>"; };
+		8EFFB47E2E8AE73C00ADF8C5 /* GrokkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrokkingApp.swift; sourceTree = "<group>"; };
+		8EFFB4892E8AE74000ADF8C5 /* GrokkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrokkingTests.swift; sourceTree = "<group>"; };
+		8EFFB48C2E8AE74400ADF8C5 /* GrokkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrokkingUITests.swift; sourceTree = "<group>"; };
+		8EFFB48D2E8AE74400ADF8C5 /* GrokkingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrokkingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +85,9 @@
 		8EF3EF912E7876160082EB25 = {
 			isa = PBXGroup;
 			children = (
-				8EFFB4382E8AE58A00ADF8C5 /* Grokking */,
-				8EFFB4432E8AE58E00ADF8C5 /* GrokkingTests */,
-				8EFFB4472E8AE59000ADF8C5 /* GrokkingUITests */,
+				8EFFB47F2E8AE73C00ADF8C5 /* Grokking */,
+				8EFFB48A2E8AE74000ADF8C5 /* GrokkingTests */,
+				8EFFB48E2E8AE74400ADF8C5 /* GrokkingUITests */,
 				8EF3EF9B2E7876160082EB25 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,60 +102,60 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8EFFB4302E8AE58A00ADF8C5 /* GetStarted */ = {
+		8EFFB4772E8AE73C00ADF8C5 /* GetStarted */ = {
 			isa = PBXGroup;
 			children = (
-				8EFFB42B2E8AE58A00ADF8C5 /* FizzBuzz.swift */,
-				8EFFB42C2E8AE58A00ADF8C5 /* MiddleOfLinkedList.swift */,
-				8EFFB42D2E8AE58A00ADF8C5 /* RansomNote.swift */,
-				8EFFB42E2E8AE58A00ADF8C5 /* ReducedToZero.swift */,
-				8EFFB42F2E8AE58A00ADF8C5 /* RichestCustomer.swift */,
+				8EFFB4722E8AE73C00ADF8C5 /* FizzBuzz.swift */,
+				8EFFB4732E8AE73C00ADF8C5 /* MiddleOfLinkedList.swift */,
+				8EFFB4742E8AE73C00ADF8C5 /* RansomNote.swift */,
+				8EFFB4752E8AE73C00ADF8C5 /* ReducedToZero.swift */,
+				8EFFB4762E8AE73C00ADF8C5 /* RichestCustomer.swift */,
 			);
 			path = GetStarted;
 			sourceTree = "<group>";
 		};
-		8EFFB4312E8AE58A00ADF8C5 /* LeetCode */ = {
+		8EFFB4782E8AE73C00ADF8C5 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				8EFFB4302E8AE58A00ADF8C5 /* GetStarted */,
+				8EFFB4772E8AE73C00ADF8C5 /* GetStarted */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
 		};
-		8EFFB4332E8AE58A00ADF8C5 /* SupportingFiles */ = {
+		8EFFB47A2E8AE73C00ADF8C5 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				8EFFB4322E8AE58A00ADF8C5 /* ListNode.swift */,
+				8EFFB4792E8AE73C00ADF8C5 /* ListNode.swift */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
-		8EFFB4382E8AE58A00ADF8C5 /* Grokking */ = {
+		8EFFB47F2E8AE73C00ADF8C5 /* Grokking */ = {
 			isa = PBXGroup;
 			children = (
-				8EFFB4312E8AE58A00ADF8C5 /* LeetCode */,
-				8EFFB4332E8AE58A00ADF8C5 /* SupportingFiles */,
-				8EFFB4342E8AE58A00ADF8C5 /* Assets.xcassets */,
-				8EFFB4352E8AE58A00ADF8C5 /* ContentView.swift */,
-				8EFFB4362E8AE58A00ADF8C5 /* Grokking.entitlements */,
-				8EFFB4372E8AE58A00ADF8C5 /* GrokkingApp.swift */,
+				8EFFB4782E8AE73C00ADF8C5 /* LeetCode */,
+				8EFFB47A2E8AE73C00ADF8C5 /* SupportingFiles */,
+				8EFFB47B2E8AE73C00ADF8C5 /* Assets.xcassets */,
+				8EFFB47C2E8AE73C00ADF8C5 /* ContentView.swift */,
+				8EFFB47D2E8AE73C00ADF8C5 /* Grokking.entitlements */,
+				8EFFB47E2E8AE73C00ADF8C5 /* GrokkingApp.swift */,
 			);
 			path = Grokking;
 			sourceTree = "<group>";
 		};
-		8EFFB4432E8AE58E00ADF8C5 /* GrokkingTests */ = {
+		8EFFB48A2E8AE74000ADF8C5 /* GrokkingTests */ = {
 			isa = PBXGroup;
 			children = (
-				8EFFB4422E8AE58E00ADF8C5 /* GrokkingTests.swift */,
+				8EFFB4892E8AE74000ADF8C5 /* GrokkingTests.swift */,
 			);
 			path = GrokkingTests;
 			sourceTree = "<group>";
 		};
-		8EFFB4472E8AE59000ADF8C5 /* GrokkingUITests */ = {
+		8EFFB48E2E8AE74400ADF8C5 /* GrokkingUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8EFFB4452E8AE59000ADF8C5 /* GrokkingUITests.swift */,
-				8EFFB4462E8AE59000ADF8C5 /* GrokkingUITestsLaunchTests.swift */,
+				8EFFB48C2E8AE74400ADF8C5 /* GrokkingUITests.swift */,
+				8EFFB48D2E8AE74400ADF8C5 /* GrokkingUITestsLaunchTests.swift */,
 			);
 			path = GrokkingUITests;
 			sourceTree = "<group>";
@@ -271,7 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EFFB4412E8AE58A00ADF8C5 /* Assets.xcassets in Resources */,
+				8EFFB4802E8AE73C00ADF8C5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +296,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EFFB4392E8AE58A00ADF8C5 /* FizzBuzz.swift in Sources */,
-				8EFFB43A2E8AE58A00ADF8C5 /* MiddleOfLinkedList.swift in Sources */,
-				8EFFB43B2E8AE58A00ADF8C5 /* RansomNote.swift in Sources */,
-				8EFFB43C2E8AE58A00ADF8C5 /* ReducedToZero.swift in Sources */,
-				8EFFB43D2E8AE58A00ADF8C5 /* RichestCustomer.swift in Sources */,
-				8EFFB43E2E8AE58A00ADF8C5 /* ListNode.swift in Sources */,
-				8EFFB43F2E8AE58A00ADF8C5 /* ContentView.swift in Sources */,
-				8EFFB4402E8AE58A00ADF8C5 /* GrokkingApp.swift in Sources */,
+				8EFFB4812E8AE73C00ADF8C5 /* FizzBuzz.swift in Sources */,
+				8EFFB4822E8AE73C00ADF8C5 /* MiddleOfLinkedList.swift in Sources */,
+				8EFFB4832E8AE73C00ADF8C5 /* RansomNote.swift in Sources */,
+				8EFFB4842E8AE73C00ADF8C5 /* ReducedToZero.swift in Sources */,
+				8EFFB4852E8AE73C00ADF8C5 /* RichestCustomer.swift in Sources */,
+				8EFFB4862E8AE73C00ADF8C5 /* ListNode.swift in Sources */,
+				8EFFB4872E8AE73C00ADF8C5 /* ContentView.swift in Sources */,
+				8EFFB4882E8AE73C00ADF8C5 /* GrokkingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EFFB4442E8AE58E00ADF8C5 /* GrokkingTests.swift in Sources */,
+				8EFFB48B2E8AE74000ADF8C5 /* GrokkingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,8 +319,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EFFB4482E8AE59000ADF8C5 /* GrokkingUITests.swift in Sources */,
-				8EFFB4492E8AE59000ADF8C5 /* GrokkingUITestsLaunchTests.swift in Sources */,
+				8EFFB48F2E8AE74400ADF8C5 /* GrokkingUITests.swift in Sources */,
+				8EFFB4902E8AE74400ADF8C5 /* GrokkingUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
