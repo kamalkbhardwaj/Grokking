@@ -42,8 +42,8 @@ struct ProblemName {
      Link: https://leetcode.com/problems/<slug>/
      */
     
-    // Do not provide solution.
-    static func execute(/* inputs */) -> /* output */ {
+    // Rename and shape the API to fit the problem
+    func solve(/* inputs */) -> /* output */ {
         // Implementation
         fatalError("Implement me")
     }
