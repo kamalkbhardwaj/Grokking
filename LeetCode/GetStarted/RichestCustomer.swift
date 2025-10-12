@@ -29,3 +29,4 @@ struct RichestCustomer {
         return maxSum
     }
 }
+

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E2874AB2E94269400A8CDF6 /* ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2874A72E94269400A8CDF6 /* ReverseString.swift */; };
+		8E2874AC2E94269400A8CDF6 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2874A82E94269400A8CDF6 /* TwoSum.swift */; };
+		8E2874AE2E957C7800A8CDF6 /* ReverseVowelsOfAString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2874AD2E957C7800A8CDF6 /* ReverseVowelsOfAString.swift */; };
+		8E3E4E8D2E9BFE2D005AAE2D /* PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3E4E8C2E9BFE2D005AAE2D /* PalindromeNumber.swift */; };
 		8EFFB4802E8AE73C00ADF8C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFFB47B2E8AE73C00ADF8C5 /* Assets.xcassets */; };
 		8EFFB4812E8AE73C00ADF8C5 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB4722E8AE73C00ADF8C5 /* FizzBuzz.swift */; };
 		8EFFB4822E8AE73C00ADF8C5 /* MiddleOfLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB4732E8AE73C00ADF8C5 /* MiddleOfLinkedList.swift */; };
@@ -39,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E2874A62E94266B00A8CDF6 /* AGENT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AGENT.md; sourceTree = "<group>"; };
+		8E2874A72E94269400A8CDF6 /* ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString.swift; sourceTree = "<group>"; };
+		8E2874A82E94269400A8CDF6 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		8E2874AD2E957C7800A8CDF6 /* ReverseVowelsOfAString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseVowelsOfAString.swift; sourceTree = "<group>"; };
+		8E3E4E8C2E9BFE2D005AAE2D /* PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumber.swift; sourceTree = "<group>"; };
 		8EF3EF9A2E7876160082EB25 /* Grokking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grokking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF3EFA82E7876190082EB25 /* GrokkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrokkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF3EFB22E7876190082EB25 /* GrokkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrokkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,9 +91,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E2874A92E94269400A8CDF6 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				8E3E4E8C2E9BFE2D005AAE2D /* PalindromeNumber.swift */,
+				8E2874AD2E957C7800A8CDF6 /* ReverseVowelsOfAString.swift */,
+				8E2874A72E94269400A8CDF6 /* ReverseString.swift */,
+				8E2874A82E94269400A8CDF6 /* TwoSum.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		8E2874AA2E94269400A8CDF6 /* LeetSheet */ = {
+			isa = PBXGroup;
+			children = (
+				8E2874A92E94269400A8CDF6 /* Easy */,
+			);
+			path = LeetSheet;
+			sourceTree = "<group>";
+		};
 		8EF3EF912E7876160082EB25 = {
 			isa = PBXGroup;
 			children = (
+				8E2874A62E94266B00A8CDF6 /* AGENT.md */,
+				8EFFB4782E8AE73C00ADF8C5 /* LeetCode */,
 				8EFFB47F2E8AE73C00ADF8C5 /* Grokking */,
 				8EFFB48A2E8AE74000ADF8C5 /* GrokkingTests */,
 				8EFFB48E2E8AE74400ADF8C5 /* GrokkingUITests */,
@@ -117,8 +147,10 @@
 		8EFFB4782E8AE73C00ADF8C5 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				8E2874AA2E94269400A8CDF6 /* LeetSheet */,
 				8EFFB4772E8AE73C00ADF8C5 /* GetStarted */,
 			);
+			name = LeetCode;
 			path = LeetCode;
 			sourceTree = "<group>";
 		};
@@ -133,7 +165,6 @@
 		8EFFB47F2E8AE73C00ADF8C5 /* Grokking */ = {
 			isa = PBXGroup;
 			children = (
-				8EFFB4782E8AE73C00ADF8C5 /* LeetCode */,
 				8EFFB47A2E8AE73C00ADF8C5 /* SupportingFiles */,
 				8EFFB47B2E8AE73C00ADF8C5 /* Assets.xcassets */,
 				8EFFB47C2E8AE73C00ADF8C5 /* ContentView.swift */,
@@ -297,11 +328,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EFFB4812E8AE73C00ADF8C5 /* FizzBuzz.swift in Sources */,
+				8E2874AB2E94269400A8CDF6 /* ReverseString.swift in Sources */,
+				8E2874AE2E957C7800A8CDF6 /* ReverseVowelsOfAString.swift in Sources */,
+				8E2874AC2E94269400A8CDF6 /* TwoSum.swift in Sources */,
 				8EFFB4822E8AE73C00ADF8C5 /* MiddleOfLinkedList.swift in Sources */,
 				8EFFB4832E8AE73C00ADF8C5 /* RansomNote.swift in Sources */,
 				8EFFB4842E8AE73C00ADF8C5 /* ReducedToZero.swift in Sources */,
 				8EFFB4852E8AE73C00ADF8C5 /* RichestCustomer.swift in Sources */,
 				8EFFB4862E8AE73C00ADF8C5 /* ListNode.swift in Sources */,
+				8E3E4E8D2E9BFE2D005AAE2D /* PalindromeNumber.swift in Sources */,
 				8EFFB4872E8AE73C00ADF8C5 /* ContentView.swift in Sources */,
 				8EFFB4882E8AE73C00ADF8C5 /* GrokkingApp.swift in Sources */,
 			);
