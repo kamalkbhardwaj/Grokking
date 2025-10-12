@@ -32,3 +32,4 @@ struct ReducedToZero {
         return loopCount
     }
 }
+
